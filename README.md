@@ -14,6 +14,8 @@ This list will only get longer in the future.
 @Todo
 
 ## Usage
+to use with default ubuntu private key execute and generate cer file.
+$ openssl x509 -outform der -in ssl-cert-snakeoil.pem -out ssl-cert-snakeoil.cer
 
 @Todo
 

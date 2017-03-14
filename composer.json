@@ -1,13 +1,31 @@
 {
-    "name": "sunnyagain/adhar-api",
-    "description": "Wrapper for php adhar authentication api",
     "type": "library",
-    "license": "\"MIT\"",
-    "authors": [
-        {
-            "name": "Sunnyagain",
-            "email": "me@sunnyagain.in"
+    "url": "https://github.com/sunnyagain/php-adhar-api.git",
+    "package": {
+        "name": "sunnyagain/adhar-api",
+        "description": "Wrapper for php adhar authentication api",
+        "license": "\"MIT\"",
+        "authors": [
+            {
+                "name": "Sunnyagain",
+                "email": "me@sunnyagain.in",
+                "homepage": "http://github.com/sunnyagain",
+                "role": "Developer"
+            }
+        ],
+        "autoload": {
+            "psr-0" : {
+                "sunnyagain\\adhar-api" : "src"
+            }
+        },
+        "repositories": [
+            {
+                "type": "vcs",
+                "url": "https://github.com/sunnyagain/php-adhar-api"
+            }
+        ],
+        "require": {
+            "robrichards/xmlseclibs": "^2.0"
         }
-    ],
-    "require": {}
+    }
 }
